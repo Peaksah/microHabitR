@@ -1,0 +1,7 @@
+microHabitR is a simple R package designed to help users track micro-habits, log daily completions, calculate success rates, and visualize habit progress over time.
+
+Features include:
+1. Adding habits
+2. Logging habits
+3. Seeing habit success rates
+4. Visualizing habits over time

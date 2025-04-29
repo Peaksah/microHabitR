@@ -1,9 +1,19 @@
 #' Visualize habit tracking over time with optional highlight for today
 #'
 #' @param habit A habit object.
-#' @param highlight_today Logical. If TRUE, highlights today's completion if present.
+#' @param highlight_today If TRUE, highlights today's completion if present.
 #' @return A ggplot showing habit tracking as a line chart.
 #' @export
+#' @examples
+#' # Create, log, and plot a habit
+#' habit3 <- add_habit("Stretch", "daily")
+#' habit3 <- log_habit(habit3, lubridate::today() - 1)
+#' habit3 <- log_habit(habit3)
+#' visualize_habits_over_time(habit3, highlight_today = TRUE)
+
+
+# AI was used to debug code and help with any errors I was receiving
+
 visualize_habits_over_time <- function(habit, highlight_today = TRUE) {
   if (!inherits(habit, "habit")) stop("Input must be a 'habit' object.")
 

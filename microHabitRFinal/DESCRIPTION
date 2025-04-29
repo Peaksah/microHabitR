@@ -1,0 +1,21 @@
+Package: microHabitR
+Type: Package
+Title: A Micro Habit Tracker
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Erick", "Moron",
+      email = "emoron@usf.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Helps users track and visualize small daily habits to improve productivity and wellness. 
+  Functions include habit creation, logging, calculating success rates, and visualization over time.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    ggplot2,
+    lubridate
+RoxygenNote: 7.3.2

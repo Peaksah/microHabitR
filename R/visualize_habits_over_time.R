@@ -5,7 +5,7 @@
 #' @return A ggplot showing habit tracking as a line chart.
 #' @export
 #' @examples
-#' # Create, log, and plot a habit
+#' Create, log, and plot a habit
 #' habit3 <- add_habit("Stretch", "daily")
 #' habit3 <- log_habit(habit3, lubridate::today() - 1)
 #' habit3 <- log_habit(habit3)
